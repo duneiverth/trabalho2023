@@ -34,7 +34,12 @@
   .colegio{
     background-image: linear-gradient( rgb(94, 161, 103), white);
     display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 20px 0; 
+    justify-content: left;
+    
 }
+
+.colegio-div{
+        width: 100%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+     
+    }
