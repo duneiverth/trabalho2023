@@ -1,47 +1,34 @@
-*{
-    padding: 0;
-    margin:0;
-  }
-  .começo {
-        background-color: rgb(94, 161, 103);
-        color: black;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 24px 0;    
-  }
 
-  .item-um{
-      display: inline-block;
-      margin: 0 30px;
-      font-size: 25px;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      color: black;
-  
-  }
-  
-  .imagem-santo{
-           width: 35%;
-           margin-left: 10%;
-           
-  }
-
-  .texto1{
-    font-size: 20px;
-  }
-  
-  
-  .colegio{
-    background-image: linear-gradient( rgb(94, 161, 103), white);
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    padding: 20px 0; 
-    
+.body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vh;
 }
 
-.colegio-div{
-        width: 100%;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-     
-    }
+.slideshow{
+  height: 520px;
+  width: 935px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translate(-50% -50%);
+}
+
+.navegação{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform:translate(-50%);
+  display: flex;
+}
+
+.barra{
+  width: 70px;
+  height: 17px;
+  border: 2px solid #fff;
+  margin: 6px;
+
+}
