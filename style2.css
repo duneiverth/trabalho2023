@@ -1,9 +1,51 @@
+.começo {
+    background-color: rgb(94, 161, 103);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;    
+}
+
+.item-um{
+  display: inline-block;
+  margin: 0 30px;
+  font-size: 25px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+
+}
+
+.imagem-santo{
+       width: 35%;
+       margin-left: 10%;
+       
+}
+
+.texto1{
+font-size: 20px;
+}
+
+
+.colegio{
+display: flex;
+justify-content:center;
+align-items: center;
+padding: 20px 0; 
+
+}
+
+.colegio-div{
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100vh;
-    background: linear-gradient(72deg, #3de 1%, #8956f3 99%); 
+    background: linear-gradient(72deg,rgb(94, 161, 103)  1%, #fff 99%); 
 }
 
 .content{
@@ -13,7 +55,7 @@ body{
     overflow: hidden;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 65%;
     transform: translate(-50%, -50%);
 }
 
@@ -57,4 +99,24 @@ input{
 .slide img{
     width: 100%;
     height: 100%;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1{
+    margin-left: -80%;
 }
