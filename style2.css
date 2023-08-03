@@ -114,5 +114,7 @@ input{
     font-family: Helvetica;
     padding: 10px;
     background-color: rgb(0, 187, 124);
-    display: end;
+   justify-content:flex ;
+   align-items: end;
+   display: flexbox;
 }
