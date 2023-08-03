@@ -92,3 +92,12 @@ input{
     display: block;
     padding: 14px;
 }
+.começo {
+    background-color: rgb(94, 161, 103);
+    color: black;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 24px 0;
+    font-size:20px;    
+}
