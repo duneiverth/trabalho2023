@@ -111,3 +111,10 @@ input{
     font-style: Helvetica;
     font-size: 20px;
 }
+.end{
+    font-size: 25px;
+    font-family: Helvetica;
+    padding: 10px;
+    display: none;
+    background-color: rgb(0, 187, 124);
+}
