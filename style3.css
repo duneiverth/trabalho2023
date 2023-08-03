@@ -92,12 +92,15 @@ input{
     display: block;
     padding: 14px;
 }
-.começo {
-    background-color: rgb(94, 161, 103);
-    color: black;
+.colegio{
     display: flex;
-    justify-content:flex-end;
+    justify-content:space-between;
     align-items: center;
-    padding: 24px 0;
-    font-size:20px;    
-}
+    padding: 20px 0; 
+    
+    }
+    
+    .colegio-div{
+        width: 100%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
