@@ -79,3 +79,16 @@ input{
 #slide5:checked ~ .s1{
     margin-left: -80%;
 }
+.lista{
+    padding: 14px;
+    display: block;
+    font-style: Helvetica;
+    font-size: 20px;
+}
+.lista23{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 129, 129);
+    display: block;
+    padding: 14px;
+}
