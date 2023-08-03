@@ -109,10 +109,5 @@ input{
 }
 .texto23{
     font-size: Helvetica;
-    font-size: 20px;
-    display: block;
-    justify-content: space-around;
-    align-items: baseline;
-    
-
+    font-size: 30px;
 }
