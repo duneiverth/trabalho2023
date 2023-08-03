@@ -106,5 +106,12 @@ input{
     display: block;
     font-style: Helvetica;
     font-size: 20px;
+}
+.texto{
+    font-size: Helvetica;
+    font-size: 20px;
+    right: 50px;
+    top: 50px;
+    display: block;
     
 }
