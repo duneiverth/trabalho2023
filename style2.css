@@ -110,8 +110,8 @@ input{
 .texto23{
     font-size: Helvetica;
     font-size: 20px;
-    right: 50px;
-    top: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
     
 
 }
