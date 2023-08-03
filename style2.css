@@ -103,6 +103,8 @@ input{
 
 .lista{
     padding: 14px;
-    display: none;
+    display: block;
+    font-style: Helvetica;
+    font-size: 20px;
     
 }
