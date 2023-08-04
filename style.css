@@ -8,7 +8,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 24px 0;    
+        padding: 24px 0;   
+        font-size: 20px; 
   }
   .imagem-cabeçalho {
           width: 15%;
