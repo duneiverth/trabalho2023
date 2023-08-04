@@ -117,6 +117,8 @@ input{
 .problemas{
         font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(0, 129, 129);
-
+}
+.pr{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
