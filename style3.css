@@ -109,7 +109,14 @@ input{
     
     }
     
-    .colegio-div{
+.colegio-div{
         width: 100%;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
+
+.problemas{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 129, 129);
+
+}
