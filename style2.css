@@ -116,3 +116,10 @@ input{
     display: block;
     padding: 14px;
 }
+
+.mudanças{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding: 14px;
+}
